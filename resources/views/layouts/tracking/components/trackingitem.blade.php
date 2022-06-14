@@ -7,12 +7,12 @@ $img="";
 switch ($item['code']) {
 case '10':
 case  10:
-    $message="Order has been assigned to system for fullifilment.";
+    $message="Order has been assigned to system for fulfilment.";
     $img="Initialized.png";
     break;
 case 9:
 case '9':
-    $message="Order received at Bachaa Party facility for fullifilment";
+    $message="Order received at Bachaa Party facility for fulfilment.";
     $img="orderreceivedwh.png";
 break;
 case 21:
@@ -37,7 +37,7 @@ case '10000':
 break;
 case 10001:
 case '10001':
-    $message="All orders present in our warehouse and ready for shipment or pickup.";
+    $message="Your orders present in our warehouse and ready for shipment or pickup.";
     $img="pickup_collect.png";
 break;
 case 10002:
@@ -45,10 +45,7 @@ case '10002':
     $message="Your package is on its way to its final destination.";
     $img="intransit.png";
 break;
-case 'Return In process':
-    $message="a product return is the process of a customer taking previously purchased merchandise back to the retailer.";
-    $img="pickingstarted.png";
-break;
+
 case '10004':
 case 10004:
     $message="A courier has attempted to deliver goods but the addressee did not appear to be home.";
@@ -62,7 +59,7 @@ break;
 
 case '10005':
 case  10005:
-    $message=" your return is under process.";
+    $message="Your return is under process.";
     $img="returnedtowh.png";
 break;
 

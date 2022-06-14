@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>TrakShip | Delivery Tracking BeachParty</title>
+    <title> Track it |  BeachParty</title>
     <!-- Plugins CSS -->
     <link href="{{asset('tracking/assets/v2/css/plugins.css')}}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
@@ -363,7 +363,7 @@ font-family: 'Tw Cen MT';
                       </div>
                 </div>
             </div>
-            
+
      </div>
      <div class="pay">
      <div class="row">

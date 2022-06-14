@@ -6,7 +6,7 @@
 
                 @php
 
-                $trackingHistory = collect($order->trackingHistory)->sortBy('code');
+                $trackingHistory = collect($order->trackingHistory)->sortBy('time');
 
                 $code = collect($trackingHistory)->last()['code'];
 

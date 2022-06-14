@@ -27,6 +27,9 @@
 
 <style>
 
+.footer__collapsible ul li a:hover {
+ color: #000;
+}
     .tracker-form .btn {
       z-index: 2;
       color: #000 !important;

@@ -344,7 +344,7 @@ font-family: 'Tw Cen MT';
             </div>
             <div class="col-lg-4">
                 <div class="footer-col2">
-                    <h4> Quick Links</h4>
+                    <h4> QUICK LINKS</h4>
                     <div class="footer__collapsible">
                         <ul class="no-bullets site-footer__linklist">
                             <li><a href="https://bachaaparty.com/pages/refund-policy">Refund Policy</a></li>
@@ -356,7 +356,7 @@ font-family: 'Tw Cen MT';
             </div>
             <div class="col-lg-4">
                 <div class="footer-col2">
-                    <h4> Follow us</h4>
+                    <h4> FOLLOW US</h4>
                     <div class="footer__collapsible">
                         <ul class="no-bullets site-footer__linklist social__icons">
                             <li><a href="https://instagram.com/bachaa_party"><img src="{{asset('/tracking/assets/v2/images/instagram.png')}}"  width="25px" height="25px"></a></li>

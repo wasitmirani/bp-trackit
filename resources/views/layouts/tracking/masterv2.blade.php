@@ -285,7 +285,7 @@ font-family: 'Tw Cen MT';
         <div class="navbar-container container">
 
             <div class="navbar-brand">
-                <a class="navbar-brand-logo" href="#top">
+                <a class="navbar-brand-logo" href="https://bachaaparty.com/">
                     <img src="{{asset('tracking/assets/v2/images/becha_partylogo.png')}}" alt="logo">
                 </a>
             </div>

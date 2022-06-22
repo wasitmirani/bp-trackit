@@ -87,22 +87,20 @@ default:
     @php
         $date = new DateTime($item['time']->toDateTime()->format('d-m-Y h:i a'));
         $status=[9,24,23,21,10];
-        if(in_array($item['status'], $status)){
+        if(in_array($item['code'], $status)){
             $tz = new DateTimeZone('Asia/Karachi'); // or whatever zone you're after
             $date->setTimezone($tz);
         }
         $courier=['tcs','rider'];
        $user= isset($item['user']) ? $item['user'] : '';
        if(!empty($user)){
-        if(! in_array($user, $courier)){
+        if(!in_array($user, $courier)){
                 $tz = new DateTimeZone('Asia/Karachi'); // or whatever zone you're after
                 $date->setTimezone($tz);
         }
        }
-
         // $tz = new DateTimeZone('Asia/Karachi'); // or whatever zone you're after
         //         $date->setTimezone($tz);
-
     @endphp
     <div class="tracking-date">{{$item['time']->toDateTime()->format('d-m-Y')}}<span>{{$date->format('h:i a')}}</span></div>
     <div class="tracking-content tooltip">

@@ -436,8 +436,9 @@ p.header-subtitle::after {
 }
 
 .tracker-form .form-group {
-    width: 80%;
-    margin-left: 25px;
+    width: 43%;
+    margin-left: 140px;
+   text-align: center;
 }
 
 .tracker-form .form-control {

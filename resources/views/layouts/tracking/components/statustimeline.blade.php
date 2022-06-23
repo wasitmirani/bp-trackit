@@ -56,7 +56,13 @@
                     <p class="Summary-content2"><b>Order No: </b>{{$order->customerBillCode}} <br>
                         <b>Name: </b>{{$order->receiverName}} <br>
                         <b>Phone:</b> {{$order->receiverMobile}} <br>
-                        <b> Billing Address: </b> {{$order->receiverAddress}}</p>
+                        <b> Billing Address: </b> {{$order->receiverAddress}}<br>
+                        @if(!empty($order->trackingDetails['courier']))
+                        <b> Courier: </b> {{ucfirst($order->trackingDetails['courier'])}}<br>
+                        @endif
+                        @if(!empty($order->trackingNumber))
+                        <b> Tracking Number: </b> {{$order->trackingNumber}}</p><br>
+                        @endif
                     <!-- <p class="divider-new"></p> -->
                     <table class="table table-condensed table-striped">
                         <thead>

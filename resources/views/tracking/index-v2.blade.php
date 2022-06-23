@@ -10,7 +10,9 @@
 
         <div class="container tracker-container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-2">
+                </div>
+                  <div class="col-lg-8">
                     <div class="tracker-form">
                         <h3 class="tracker-heading">Track Your Order</h3>
                         <form class="form-inline">
@@ -22,6 +24,8 @@
                             <button type="submit" class="btn btn-primary" >Track</button>
                         </form>
                     </div>
+                </div>
+                <div class="col-lg-2">
                 </div>
             </div>
             <div class="row">

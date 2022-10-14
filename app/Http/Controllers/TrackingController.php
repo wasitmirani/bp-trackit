@@ -40,7 +40,7 @@ class TrackingController extends Controller
             $order = $order->where("customerBillCode", (int) $request->order_no)
                 ->orWhere("customerBillCode", (string) $request->order_no)
                 ->orWhere("trackingNumber", $request->order_no)
-                ->where("clientId", 4)
+                ->whereIn("clientId", [4,36])
                 ->first();
         }
         else

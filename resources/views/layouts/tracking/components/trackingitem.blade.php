@@ -104,7 +104,11 @@ default:
     @endphp
     <div class="tracking-date">{{$item['time']->toDateTime()->format('d-m-Y')}}<span>{{$date->format('h:i a')}}</span></div>
     <div class="tracking-content tooltip">
+        @if($item['code']==24)
+        <strong> Ready to Ship</strong>
+        @else
         <strong> {{ucfirst(strtolower($item['status']))}}</strong>
+        @endif
          <span>{{ $message}}</span>
 
         <span class="tooltiptext">{{ $message}}</span>

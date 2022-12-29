@@ -55,8 +55,9 @@
                     <p class="divider-new"></p>
                     <p class="Summary-content2"><b>Order No: </b>{{$order->customerBillCode}} <br>
                         <b>Name: </b>{{$order->receiverName}} <br>
-                        <b>Phone:</b> {{$order->receiverMobile}} <br>
-                        <b> Billing Address: </b> {{$order->receiverAddress}}<br>
+                        {{-- <b>Phone:</b> {{$order->receiverMobile}} <br> --}}
+                         <b> Billing City: </b> {{$order->receiverCity}}<br>
+                        {{-- <b> Billing Address: </b> {{$order->receiverAddress}}<br> --}}
                         @if(!empty($order->trackingDetails['courier']))
                         <b> Courier: </b> {{ucfirst($order->trackingDetails['courier'])}}<br>
                         @endif
